@@ -1,18 +1,18 @@
 {
-    "id":"jackbox-en",
+    "id":"jackbox-by",
     "name":"Jackbox Utility",
-    "description":"The community server for Jackbox Games in English!",
-    "image":"https://raw.githubusercontent.com/AkiraArtuhaxis/JackboxUtility-Server-en/main/assets/news_images/logo.png",
+    "description":"Пераклады на Jackbox ад BurAndBY!",
+    "image":"https://raw.githubusercontent.com/jackbox-by/JackboxUtility-Server-by/main/assets/news_images/logo.png",
 
     "urls":[
         {
             "versions":["1.0.0"],
-            "api":"https://raw.githubusercontent.com/AkiraArtuhaxis/JackboxUtility-Server-en/main/api/v2/",
-            "assets":"https://raw.githubusercontent.com/AkiraArtuhaxis/JackboxUtility-Server-en/main/assets"
+            "api":"https://raw.githubusercontent.com/jackbox-by/JackboxUtility-Server-by/main/api/v2/",
+            "assets":"https://raw.githubusercontent.com/jackbox-by/JackboxUtility-Server-by/main/assets"
         }
     ],
-    "controller":"jackbox.tv",
-    "languages":["en"],
+    "controller":"burs.ml",
+    "languages":["by"],
     "links": [
         {
             "icon":"globe",
