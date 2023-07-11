@@ -60,7 +60,36 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-1",
             "jackbox_games_store":"http://shrsl.com/44k1h"
         },
-            "patchs":[],
+            "patchs":[{
+                    "id": "jpp1_by",
+                    "name": "The Jackbox Party Pack 1",
+                    "small_description": "Мухі-Ўрухі на беларускай мове.",
+                    "description": "Мухі-Ўрухі на беларускай мове..",
+                    "version": "Build:  a0.0.1 - BY",
+                    "patch_path": "https://files.catbox.moe/zuqnh5.zip",
+                    "configuration": {
+                        "version_origin": "repo_file",
+                        "version_file": "https://files.catbox.moe/lauo8h.txt",
+                        "version_property": "buildVersion"
+                    },
+                    "components": [
+                        {
+                            "id": "lieswatter_patch",
+                            "linked_game": "lieswatter",
+                            "name": "Мухі Ўрухі",
+                            "description": "Тэкст на Беларускай мове. Агучка на Ангельскай мове.",
+                            "authors": "Перакладальня",
+                            "small_description": "Тэкст на Беларускай мове. Агучка на Ангельскай мове.",
+                            "patch_type": {
+                                "game_text": true,
+                                "game_assets": true,
+                                "game_subtitles": false,
+                                "website": true,
+                                "audios": false
+                            }
+                        }
+                    ]
+                }],
         "games":[
             {
                 "id":"ydkj2015",
@@ -200,7 +229,7 @@
             },
             {
                 "id":"lieswatter",
-                "name":"Lie Swatter",
+                "name":"Мухі Ўрухі",
                 "background":"game_backgrounds/LieSwatter.webp",
                 "path":"games/LieSwatter",
                 "game_info":{
@@ -208,7 +237,7 @@
                         "min":1,
                         "max":100
                     },
-                    "length":"10 - 15 minutes",
+                    "length":"10 - 15 хвілін",
                     "playtime":{
                         "min":10,
                         "max":15
@@ -217,13 +246,13 @@
                     "audience":false,
                     "stream_friendly":"PLAYABLE",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"This game doesn't require moderation.",
+                    "moderation_description":"Для гэтай гульні не патрэбна мадэрацыя.",
                     "subtitles":false,
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
-                    "tagline":"Is it true or false?",
-                    "small_description":"Is it true or false?",
-                    "description":"Do lobsters pee out of their heads? Did Japan vote the instant noodle the top invention of the 20th century? Or are you calling BS?\n\nNOTE: Opening this game with the Utility will open the Party Pack menu, skipping the introduction. This is intentional, as the game freezes when trying to open it more efficiently like other games.",
+                    "translation":"беларускай",
+                    "tagline":"Гэта праўда ці хлусня?",
+                    "small_description":"Гэта праўда ці хлусня?",
+                    "description":"Амары мочаць з галавы? Японія прызнала локшыну хуткага прыгатавання галоўным вынаходніцтвам 20-га стагоддзя? Ці гэта хлусня?\n\nЗАЎВАГА: адкрыццё гэтай гульні з дапамогай утыліты адкрые меню Party Pack, прапусціўшы ўвядзенне. Гэта зроблена наўмысна, бо гульня завісае пры спробе адкрыць яе больш эфектыўна, як і іншыя гульні.",
                     "images":[
                         "game_images/LieSwatter/lieswatter.mp4",
                         "game_images/LieSwatter/lieswatter_1.webp",
