@@ -1,35 +1,35 @@
 {
     "tags":[
        {
-            "id":"talking",
-            "name":"Discussion",
-            "icon":"megaphone",
-            "description":"Games that require or benefit from out loud discussion between players."
-       },
-       {
-       	    "id":"drawing",
-            "name":"Drawing",
-            "icon":"edit",
-            "description":"You'll have to draw in these games."
-       },
-       {
-       	    "id":"deduction",
-            "name":"Strategy",
-            "icon":"comment_urgent",
-            "description":"You'll have to think well of your actions in these games."
-       },
-       {
-       	    "id":"knowledge",
-            "name":"Trivia",
-            "icon":"unknown",
-            "description":"These are trivia games."
-       },
-       {
-            "id":"writing",
-            "name":"Writing",
-            "icon":"text_align_middle",
-            "description":"You'll have to write in these games."
-        }
+             "id":"talking",
+             "name":"Discussion",
+             "icon":"megaphone",
+             "description":"Гульні, якія патрабуюць ці выйграюць ад гучнага абмеркавання паміж гульцамі."
+        },
+        {
+        "id":"drawing",
+             "name":"Drawing",
+             "icon":"edit",
+             "description":"У гэтых гульнях трэба маляваць."
+        },
+        {
+        "id":"deduction",
+             "name":"Strategy",
+             "icon":"comment_urgent",
+             "description":"Вам давядзецца добра падумаць аб сваіх дзеяннях у гэтых гульнях.."
+        },
+        {
+        "id":"knowledge",
+             "name":"Trivia",
+             "icon":"unknown",
+             "description":"Гэта віктарыны."
+        },
+        {
+             "id":"writing",
+             "name":"Writing",
+             "icon":"text_align_middle",
+             "description":"Вам давядзецца пісаць у гэтых гульнях."
+         }
     ],
     "patchsCategories":[],
     "packs":[
